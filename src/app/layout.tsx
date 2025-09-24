@@ -18,37 +18,35 @@ export const metadata: Metadata = {
   title: "NebulaCoin Memecoin — Futuristic Community-Driven Token",
   description: "NebulaCoin is a futuristic memecoin built for the community. Simple buy steps, transparent tokenomics, and a roadmap that points to the stars.",
   keywords: ["memecoin", "futuristic", "cryptocurrency", "buy memecoin", "tokenomics", "roadmap", "community", "landing page", "crypto website"],
-  alternates: {
-    canonical: "/"
-  },
+  alternates: { canonical: "/" },
   openGraph: {
     title: "NebulaCoin Memecoin — Futuristic Community-Driven Token",
     description: "NebulaCoin is a futuristic memecoin built for the community. Simple buy steps, transparent tokenomics, and a roadmap that points to the stars.",
     type: "website",
     url: "/",
     siteName: "NebulaCoin",
-    images: [{
-      url: "/images/logo.svg",
-      width: 1200,
-      height: 630,
-      alt: "NebulaCoin Memecoin"
-    }]
+    images: [
+      {
+        url: "/images/logo.svg",
+        width: 1200,
+        height: 630,
+        alt: "NebulaCoin Memecoin — Futuristic Community-Driven Token"
+      }
+    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "NebulaCoin Memecoin — Futuristic Community-Driven Token",
     description: "NebulaCoin is a futuristic memecoin built for the community. Simple buy steps, transparent tokenomics, and a roadmap that points to the stars.",
-    images: ["/images/logo.svg"]
+    images: ["/images/logo.svg"],
   },
   robots: { index: true, follow: true },
-  icons: [{ href: "/favicon.ico" }]
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
       <body
