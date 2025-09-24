@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NebulaCoin Memecoin — Futuristic Community-Driven Token",
     description: "NebulaCoin is a futuristic memecoin built for the community. Simple buy steps, transparent tokenomics, and a roadmap that points to the stars.",
-    images: ["https://sargas.io/img/svg/logo.png"],
+    images: ["/images/forest.jpg"],
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.ico" },
