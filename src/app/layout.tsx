@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "NebulaCoin Memecoin — Futuristic Community-Driven Token",
     description: "NebulaCoin is a futuristic memecoin built for the community. Simple buy steps, transparent tokenomics, and a roadmap that points to the stars.",
-    images: ["/images/logo.svg"],
+    images: ["https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_30JdtxqdyLHB6ARbR4L5ravXoKg/tmp/2025-coupe-model-red-glossy-finish-studi-1758105462557-2a47ce08.jpg"],
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.ico" },
